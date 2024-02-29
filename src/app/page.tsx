@@ -18,12 +18,6 @@ export default function Home() {
                         <h1 className="text-6xl font-bold text-text mt-3.5 shadow-text">Mathias Clari Drenik</h1>
                         <h2 className="text-3xl font-semibold mt-1.5 text-primary shadow-lg">Software
                             Engineer</h2>
-                        <p className={"text-text mt-3.5 text-center"}>I'm a software engineer with a passion for
-                            technology, I'm always looking for new challenges and learning new things. I'm currently
-                            working with React, NextJS, and NodeJS. I'm also a fan of open-source projects and I'm
-                            always
-                            looking for new projects to contribute to. I'm currently looking for new opportunities to
-                            grow and learn new things.</p>
                     </section>
                     <div className="flex flex-row space-x-4 mt-3.5">
                         <a href="https://github.com/mathiasclari/" className="hover:scale-110 ease-in-out duration-500"
