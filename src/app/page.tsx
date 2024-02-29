@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {BiLogoGithub, BiLogoInstagramAlt} from "react-icons/bi";
 import {FaXTwitter} from "react-icons/fa6";
+import {Analytics} from "@vercel/analytics/react"
 
 
 export default function Home() {
@@ -36,8 +37,8 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-
             </section>
+            <Analytics/>
         </>
     );
 }
