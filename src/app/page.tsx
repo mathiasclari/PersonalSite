@@ -14,7 +14,7 @@ export default function Home() {
             <section className="flex flex-col items-center justify-center h-screen">
                 <div
                     className="flex flex-col items-center justify-center h-screen shadow-md w-3/4">
-                    <Image src="/mathias.png" alt="logo" width="350" height="350"/>
+                    <Image src="/logoicon.svg" alt="logo" width="350" height="350"/>
                     <section className="flex flex-col items-center ">
                         <h1 className="text-6xl font-bold text-text mt-3.5 shadow-text">Mathias Clari Drenik</h1>
                         <h2 className="text-3xl font-semibold mt-1.5 text-primary shadow-lg">Software
