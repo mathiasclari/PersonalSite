@@ -40,20 +40,19 @@ export default function Home() {
                         </a>
                     </div>
                 </div>
-
-            </section>
-            <section
-                className="absolute top-10 right-10 border-10 overflow-auto h-auto w-auto bg-accent rounded-md items-center justify-center text-center">
-                <h1 className="text-2xl font-bold text-text">PROJECTS</h1>
-                <a href="https://noximity.com" className="ease-in-out duration-500 rounded-md">
-                    <div className="flex flex-row items-center m-1 hover:bg-accent hover:shadow-md">
-                        <Image src="logo.svg" alt="logo" width="50" height="50"/>
-                        <h3 className="text-xl font-semibold text-text ml-1.5">Noximity:</h3>
-                        <p className="text-text ml-1">
-                            Slovenian creators of unique, sustainable wooden products.
-                        </p>
-                    </div>
-                </a>
+                <section
+                    className="absolute bottom-10 border-10 overflow-auto m-2 h-auto w-auto bg-accent rounded-2xl items-center justify-center text-center">
+                    <h1 className="text-2xl font-bold text-text">PROJECTS</h1>
+                    <a href="https://noximity.com" className="ease-in-out duration-500 rounded-md">
+                        <div className="flex flex-row items-center m-1 hover:bg-accent hover:shadow-md">
+                            <Image src="logo.svg" alt="logo" width="50" height="50"/>
+                            <h3 className="text-xl font-semibold text-text ml-1.5">Noximity:</h3>
+                            <p className="text-text ml-1">
+                                Slovenian creators of unique, sustainable wooden products.
+                            </p>
+                        </div>
+                    </a>
+                </section>
             </section>
             <Analytics/>
             <SpeedInsights/>
