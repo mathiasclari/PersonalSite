@@ -25,6 +25,7 @@ export default function Home() {
                             </section>
                             <CardContainer className="inter-var">
       <CardBody className="bg-transparent relative group/card  dark:hover:transparent dark:transparent:shadow-transparent dark:bg-transparent dark:border-transparent border-transparent w-auto sm:w-[30rem] h-auto rounded-xl p-6  ">
+        <a href="https://github.com/mathiasclari" target="__blank">
         <div className="flex justify-between items-center mt-10">
         <CardItem
   translateZ={20}
@@ -35,6 +36,8 @@ export default function Home() {
 >
   Check out :: GitHub
 </CardItem>
+          </a>
+          <a href="https://twitter.com/mathiasclari" target="__blank">
 <CardItem
   translateZ={20}
   as="button"
@@ -44,6 +47,7 @@ export default function Home() {
 >
 Check out :: X
 </CardItem>
+            </a>
           </div>
       </CardBody>
     </CardContainer>
