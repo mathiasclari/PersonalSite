@@ -28,7 +28,7 @@ export default function Home() {
         <div className="flex justify-between items-center mt-10">
         <CardItem
   translateZ={20}
-  as="button"
+  as="a"
   href="https://github.com/mathiasclari"
   target="__blank"
   className="px-4 py-2 rounded-xl bg-black[0.9] dark:bg-white hover:bg-white hover:text-black dark:text-black text-white text-xs font-bold transition-transform transform hover:scale-105 neon-effect"
@@ -37,7 +37,7 @@ export default function Home() {
 </CardItem>
 <CardItem
   translateZ={20}
-  as="button"
+  as="a"
   href="https://twitter.com/mathiasclari"
   target="__blank"
   className="px-4 py-2 rounded-xl bg-black[0.9] dark:bg-white hover:bg-white hover:text-black dark:text-black text-white text-xs font-bold transition-transform transform hover:scale-105 neon-effect"
