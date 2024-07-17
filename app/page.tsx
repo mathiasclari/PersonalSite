@@ -173,8 +173,8 @@ const Home: React.FC = () => {
   </div>
 </section>
 
-{/* Easter Egg */}
-<div className="absolute bottom-5 right-5">
+{/* Easter Egg for larger screens */}
+<div className="hidden md:block absolute bottom-5 right-5">
   <motion.div
     className="cursor-pointer p-4 bg-accent text-secondary rounded-full shadow-md"
     onClick={() => setShowEasterEgg(!showEasterEgg)}
@@ -182,18 +182,18 @@ const Home: React.FC = () => {
     whileTap={{ scale: 0.9 }}
     animate={{ rotate: showEasterEgg ? 360 : 0 }}
   >
-    {showEasterEgg ? '🥚' : '🐣'}
+    {showEasterEgg ? '🐣' : '🥚'}
   </motion.div>
 </div>
 
 {/* Hidden Easter Egg Content */}
 {showEasterEgg && (
-  <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90 z-50">
+  <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90 z-50 p-4">
     <div className="text-center text-white">
-      <h2 className="text-4xl mb-4">🎉 Congratulations! 🎉</h2>
-      <p className="text-lg mb-6">You've found the hidden Easter egg!</p>
+      <h2 className="text-2xl md:text-4xl mb-4">🎉 Congratulations! 🎉</h2>
+      <p className="text-md md:text-lg mb-6">You've found the hidden Easter egg!</p>
       <motion.button
-        className="px-6 py-3 bg-accent text-secondary rounded-lg shadow-md hover:bg-accentDark transition-colors"
+        className="px-4 py-2 md:px-6 md:py-3 bg-accent text-secondary rounded-lg shadow-md hover:bg-accentDark transition-colors"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => setShowEasterEgg(false)}
