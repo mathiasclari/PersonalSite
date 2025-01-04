@@ -45,7 +45,7 @@ const TestimonialsSection = () => {
 
                                 <div className="relative space-y-6">
                                     <p className="text-lg text-zinc-600 font-light leading-relaxed italic">
-                                        "{testimonial.content}"
+                                        &quot;{testimonial.content}&quot;
                                     </p>
 
                                     <div className="border-t border-zinc-100 pt-4">

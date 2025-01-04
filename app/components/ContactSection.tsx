@@ -8,11 +8,11 @@ const ContactSection = () => {
                 {/* Header */}
                 <div className="space-y-4">
                     <h2 className="text-2xl font-light text-zinc-800">
-                        Let's Connect
+                        Let&apos;s Connect
                     </h2>
                     <div className="h-px w-24 bg-zinc-200" />
                     <p className="text-zinc-600 font-light max-w-xl">
-                        Have a project in mind or want to collaborate? I'm always open to discussing new opportunities and ideas.
+                        Have a project in mind or want to collaborate? I&apos;m always open to discussing new opportunities and ideas.
                     </p>
                 </div>
 
